@@ -1,0 +1,196 @@
+{
+  "farm": {
+    "fantasy": {
+      "name": "fantasy",
+      "type": 1,
+      "fenceDamaged": 0,
+      "duration": 5,
+      "money": 650,
+      "farmerRemainderCount": 2,
+      "lastLoginTime": "2020-05-20 11:48:45",
+      "createTime": "2020-05-20 11:48:45",
+      "animalList": [],
+      "plantList": [],
+      "muckList": [
+        {
+          "name": "Primary fertilizer",
+          "purchasePrice": 5,
+          "sellPrice": 4,
+          "level": 1,
+          "count": 0,
+          "description": "Slow acceleration of plant growth",
+          "effectHour": 2
+        },
+        {
+          "name": "Intermediate fertilizer",
+          "purchasePrice": 10,
+          "sellPrice": 8,
+          "level": 2,
+          "count": 0,
+          "description": "Can accelerate plant growth",
+          "effectHour": 4
+        },
+        {
+          "name": "Advanced fertilizer",
+          "purchasePrice": 20,
+          "sellPrice": 14,
+          "level": 3,
+          "count": 0,
+          "description": "Greatly accelerate plant growth",
+          "effectHour": 10
+        }
+      ],
+      "feedList": [
+        {
+          "name": "primary feed",
+          "purchasePrice": 5,
+          "sellPrice": 4,
+          "level": 1,
+          "count": 0,
+          "description": "Make animals healthier",
+          "healthEffect": 5,
+          "happinessEffect": 5
+        },
+        {
+          "name": "Intermediate feed",
+          "purchasePrice": 10,
+          "sellPrice": 8,
+          "level": 2,
+          "count": 0,
+          "description": "make animal look special",
+          "healthEffect": 10,
+          "happinessEffect": 10
+        },
+        {
+          "name": "advanced feed",
+          "purchasePrice": 20,
+          "sellPrice": 16,
+          "level": 3,
+          "count": 0,
+          "description": "Cure all diseases",
+          "healthEffect": 15,
+          "happinessEffect": 15
+        }
+      ]
+    }
+  },
+  "animal": [
+    {
+      "name": "cat",
+      "purchasePrice": 50,
+      "sellPrice": 25,
+      "description": "so lovely",
+      "status": 0,
+      "durationHour": 50
+    },
+    {
+      "name": "dog",
+      "purchasePrice": 50,
+      "sellPrice": 25,
+      "description": "sometimes naughty",
+      "status": 0,
+      "durationHour": 50
+    }
+  ],
+  "plant": [
+    {
+      "name": "black rose",
+      "purchasePrice": 25,
+      "sellPrice": 15,
+      "description": "such a rose in the world",
+      "status": 0,
+      "durationHour": 15
+    },
+    {
+      "name": "violet",
+      "purchasePrice": 25,
+      "sellPrice": 15,
+      "description": "no one can refuse violet",
+      "status": 0,
+      "durationHour": 15
+    }
+  ],
+  "item": {
+    "muck": [
+      {
+        "name": "Primary fertilizer",
+        "purchasePrice": 5,
+        "sellPrice": 4,
+        "effectHour": 2,
+        "description": "Slow acceleration of plant growth",
+        "count": 0,
+        "level": 1
+      },
+      {
+        "name": "intermediate fertilizer",
+        "purchasePrice": 10,
+        "sellPrice": 8,
+        "effectHour": 4,
+        "description": "Can accelerate plant growth",
+        "count": 0,
+        "level": 2
+      },
+      {
+        "name": "Advanced fertilizer",
+        "purchasePrice": 20,
+        "sellPrice": 14,
+        "effectHour": 10,
+        "description": "Greatly accelerate plant growth",
+        "count": 0,
+        "level": 3
+      }
+    ],
+    "feed": [
+      {
+        "name": "primary feed",
+        "purchasePrice": 5,
+        "sellPrice": 4,
+        "healthEffect": 5,
+        "happinessEffect": 5,
+        "description": "Make animals healthier",
+        "count": 0,
+        "level": 1
+      },
+      {
+        "name": "intermediate feed",
+        "purchasePrice": 10,
+        "sellPrice": 8,
+        "healthEffect": 10,
+        "happinessEffect": 10,
+        "description": "make animal look special",
+        "count": 0,
+        "level": 2
+      },
+      {
+        "name": "advanced feed",
+        "purchasePrice": 20,
+        "sellPrice": 16,
+        "healthEffect": 15,
+        "happinessEffect": 15,
+        "description": "Cure all diseases",
+        "count": 0,
+        "level": 3
+      }
+    ]
+  },
+  "farmType": [
+    {
+      "key": 1,
+      "value": "initial money+30%"
+    },
+    {
+      "key": 2,
+      "value": "sell price+5%"
+    },
+    {
+      "key": 3,
+      "value": "purchase price-5%"
+    },
+    {
+      "key": 4,
+      "value": "bonus at the end+10%"
+    }
+  ],
+  "initMoney": 500,
+  "wateringHour": 2
+}
